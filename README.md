@@ -1,2 +1,2 @@
-# BaloghIstiPublic
-MyPublicRepo
+## ⛅ BaloghIstiPublic
+### 📖 MyPublicRepo
