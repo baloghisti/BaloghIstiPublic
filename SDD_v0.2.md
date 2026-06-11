@@ -1,9 +1,8 @@
 Solution Design Document (SDD korábban MVT)
 ID2619_6-DBOS-EDMNET-756-[NET#029].4.SDD-kapcsolattartási_email_cím_megtekintése_módosítása
 
-| Mező  | Leírás                 |
-|-------|------------------------|
-|SDD elfogadásának és lezárásának dátuma: |	YYYY.MM.DD. |
+SDD elfogadásának és lezárásának dátuma:	YYYY.MM.DD.
+
 
 
 
@@ -11,13 +10,12 @@ A dokumentum célja az Üzleti követelmény specifikáció (BRS) - és ha rende
 Ha az SDD elfogadása és lezárásra megtörtént, de a fejlesztés 3 hónapon belül nem került megvalósításra, akkor az SDD kötelezően felülvizsgálandó.
 
 
-| Specifikáció készítője |
-|-------|------------------------|
-| Név: |	Balogh István |
-| Szervezeti egység: |	IT Megoldástervezés és Teszttámogatás |
-| Beosztás: |	Solution Architect |
-| Telefonszám: |	+36 20 746 3731 |
-| E-mail cím:	| balogh.istvan2@mbhbank.hu |
+Specifikáció készítője
+Név:	Balogh István
+Szervezeti egység:	IT Megoldástervezés és Teszttámogatás
+Beosztás: 	Solution Architect 
+Telefonszám:	+36 20 746 3731
+E-mail cím:	balogh.istvan2@mbhbank.hu
 
 
  
