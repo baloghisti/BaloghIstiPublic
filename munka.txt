@@ -1,0 +1,76 @@
+szakértői értékelési árajánlatot kellene csinálnom az alábbiak és a feltöltött docx alapján:Nem tetszik, mert nem adnak előre több infót,
+de én mondjam meg mennyit kérek a munkáért és mikorra lenne kész... 
+Mennyi lenne a reális ár, illetve mennyi munkával járhat???  
+
+Igen szerintem az a veszélyes ebben a feladatban, ha az ember túl olcsón vállalja el csak azért, mert „az anyagot már kidolgozták, 
+nekünk csak felül kell vizsgálni”.A csatolt anyag alapján ugyanis jelentős értékű, technikailag összetett szoftver vagyonról van szó, 
+amelynek az apporthoz szükséges értékelése lesz a végtermék.Amit jelenleg tudunkAz anyag szerint:81 csomag101 386 forrássoraz eredeti 
+fejlesztési ráfordítás modellje 676,8 munkanapezen felül 15 saját termék-repository22 526 kódsor + 11 167 markup/stílus sorDevOps/CI/CD: 
+2 548 workflow-sorQA: 77 570 tesztsor / 5 975 tesztesettechnikai dokumentáció: 17 998 sora számítás eredménye: 905 246 EUR, azaz 362,1 M Ft 
+bruttó helyettesítési költség. Ráadásul a részletes modellben olyan területek vannak, mint:smart contract / blockchain,backend + adatbázis,
+storage,security,payment backend,frontend,DevOps,QA,technikai dokumentáció,solution architecture.A részletes modell önmagában 111,5 
+solution architect munkanapot tartalmaz tervezési ráfordításként. Ez tehát nem az a kategória, hogy „átnézem a Git repókat és mondok 
+rá egy számot”.1. Mit jelentene szerintem a tényleges munka?Én három szintre bontanám.A. Dokumentum Alapú szakértői felülvizsgálatAzt 
+feltételezzük, hogy:„a teljeskörűen kidolgozott anyagot ők adják át, nekünk csak felül kell vizsgálni.”Ebben az esetben nem kell 101 ezer 
+sort végigolvasni.A munka inkább:a repository-leltár ellenőrzése;a kódszámok és kategorizálás módszertanának ellenőrzése;a fejlesztési 
+ráfordítások realitásának vizsgálata;a szerepkörök és napidíjak megfelelőségének vizsgálata;a saját termékekre alkalmazott −30% / −10% 
+korrekciók vizsgálata;a DevOps helyettesítő projekt 35 napos becslésének ellenőrzése;QA és dokumentációs ráfordítások ellenőrzése;az 
+architect-ráfordítás értelmezése;a duplikációk / átfedések keresése;annak megállapítása, hogy a 362 M Ft-os összérték szakmailag 
+alátámasztható-e;az értékelési módszertan dokumentálása;szakértői jelentés elkészítése;szükség esetén egyeztetés az ügyféllel/készítőkkel;
+véglegesítés.Erre én kb. 8–12 tényleges munkanapot becsülnék.És ez már nem kevés.2. Ha ténylegesen a repository-kat is ellenőrizni 
+kellNa, itt változik a történet.Ha hozzáférést kapsz például:Git repository-khoz,commit history hoz,branch-ekhez,buildhez,CI/CD 
+konfigurációkhoz,dokumentációhoz,issue trackerhez,esetleg futó rendszerekhez,akkor már nem egyszerűen egy előkészített értékelés 
+felülvizsgálata történik.Akkor azt is ellenőrizni kell, hogy:„Amit az Excel/táblázat állít a rendszerről, az ténylegesen megfelel-e 
+annak, ami a repository-ban van?”Ez már inkább 12–20 munkanap.3. És van egy még fontosabb problémaItt nem pusztán az a kérdés, hogy:
+„Mennyibe került volna ezt megcsinálni?”Hanem az, hogy mekkora értéket lehet az apportba tenni.Ez nagyon fontos különbség.
+A Ptk. Zrt.-nél a nem pénzbeli vagyoni hozzájárulás esetében olyan jelentést ír elő, amelynek tartalmaznia kell többek között a 
+vagyontárgy leírását, értékét, az értékelést, az alkalmazott értékelési módszert, valamint azt is, hogy az előzetesen megállapított 
+érték egyensúlyban van-e az ellenében adott részvények számával és névértékével. Ezért én a megbízás előtt mindenképpen tisztáznám, 
+hogy pontosan milyen „szakértői értékelést” várnak tőled.Mert lehet, hogy ők csak egy IT szakmai értékelést akarnak, amit aztán a 
+könyvvizsgáló felhasznál.De az is lehet, hogy a Ptk. 3:251. § szerinti szakértői jelentést várják.A kettő között nagyon nagy különbség 
+van felelősségben.4. Mennyi pénzt kérnék érte?Én nem óradíjjal adnám első körben, hanem fix projektárat mondanék.A jelenlegi információk 
+alapján az én ársávom:FeladatMunkaReális nettó díjCsak gyors előzetes szakmai review3–5 nap500–800 ezer FtDokumentumalapú teljes szakértői
+felülvizsgálat8–12 nap1,3–2,0 M FtRepository + dokumentáció + szakértői jelentés12–18 nap2,0–3,0 M FtMély technikai audit + értékelés + 
+jelentés18–25+ nap3–4 M Ft+Én konkrétan ezt mondanám:1 800 000 Ft + ÁFA10–12 munkanapos határidővel.Ez szerintem ebben a helyzetben egy 
+józan, védhető ajánlat.Nem túl olcsó ahhoz, hogy később beleragadj egy sokhetes projektbe, de nem is olyan magas, hogy első körben 
+elriassza őket.5. Viszont lenne egy nagyon fontos feltételemAz ajánlatba ezt mindenképpen beletenném:Az ajánlati ár az előzetesen 
+megküldött értékelési dokumentáció, valamint az annak alátámasztására átadott részletes repository-leltár és kapcsolódó dokumentáció 
+szakértői felülvizsgálatára vonatkozik.És:Az ajánlat nem tartalmazza a teljes forráskód állomány tételes, soronkénti technikai auditját, 
+penetration testinget, security auditot, illetve a rendszerek működési környezetének teljes körű auditját.Ez azért nagyon fontos, mert 
+különben könnyen azt mondhatják később:„De hát szakértőként ezt is ellenőrizni kellett volna.”6. Én még egy másik dolgot is beépítenék
+A 362,1 M Ft-os számot nem venném át automatikusan.A csatolt anyag ugyanis maga is egy helyettesítési költség-modellt mutat. 
+Például a szerepkörökhöz különböző napidíjak vannak rendelve: senior smart contract fejlesztő 1015 EUR/nap, backend 671–732 EUR/nap, 
+security 793 EUR/nap, frontend 610 EUR/nap, DevOps 732 EUR/nap stb. Ezeket szakértőként validálni kell.Különösen:mi alapján 1015 EUR 
+egy smart contract senior napidíja?mi alapján 793 EUR a security?mi alapján 610 EUR a frontend?magyar / európai / nemzetközi piacról
+származnak-e?contractor vagy employee költség?tartalmaznak-e overheadet?milyen időpontra vonatkoznak?a 676,8 nap valóban újraépítési 
+ráfordítás vagy történeti fejlesztési ráfordítás?van-e technikai elavulás?van-e funkcionális átfedés?ténylegesen átadható-e 
+valamennyi IP?licencek, third-party komponensek hogyan kezelendők?a saját termékeknél miért −30% az alkalmazás és −10% a szerződés 
+készlet?mi indokolja ezeket a korrekciókat?Ezek már szakértői kérdések.7. A 111,5 architect nap különösen érdekesA dokumentumban 
+szerepel:„solution architect – Tervezési ráfordítás (III.5.) – 111,5 nap – 854 EUR/nap – 95 221 EUR.” Ezt én külön megvizsgálnám.
+Mert itt könnyen lehet egy módszertani probléma:a helyettesítési költségbe bekerülő architect effort nem feltétlenül ugyanaz, mint a 
+jelenlegi rendszer értékéhez hozzájáruló önálló vagyonelem.Ha az egész értékelés „cost approach / replacement cost” logikával készült, 
+akkor ezt szakmailag meg kell tudni indokolni.8. Mennyi lenne a saját munkád?Én a saját idődre nagyjából ezt tervezném:1. Megbízás és 
+módszertan tisztázása0,5–1 nap2. A teljes átadott anyag megismerése1–1,5 nap3. Repository-leltár és számítások validálása2–3 nap4. 
+Technológiai és architekturális értékelés1,5–2 nap5. Költségmodell és napidíjak ellenőrzése1–1,5 nap6. Korrekciók és kockázatok1 nap7. 
+Szakértői jelentés elkészítése2–3 nap8. Egyeztetés / javítás / véglegesítés1 napÖsszesen:10–14 munkanap.Ezért mondanám azt, hogy:10–12 
+munkanap vállalható, de csak akkor, ha a részletes előkészített anyagot valóban megkapod, és nem kell minden repository-t nulláról 
+feltérképezni.9. Mit mondanék most Ferencnek?Én nem küldeném még ki az ügyfélnek a végleges ajánlatot.Először Ferencnek mondanám:
+Ferencnek① Eredeti② Írj az én stílusombanSzia!Átnéztem a megküldött anyagot. Szerintem ezt érdemes megpróbálni, de nem egyszerű 
+„anyagátnézésként” kezelném.A jelenlegi anyag alapján kb. 81 csomag, 101 ezer forrássor, külön saját termékek, CI/CD, QA, dokumentáció 
+és több speciális technológiai terület szerepel benne. A számított bruttó helyettesítési költség kb. 905 ezer EUR, azaz 362 M Ft.
+Ha valóban megkapjuk a már részletesen előkészített repository-leltárt és az értékelési modellt, akkor én kb. 10–12 munkanappal 
+számolnék. Ebben a szakmai/módszertani felülvizsgálat, az értékelési modell validálása, a főbb technikai állítások ellenőrzése, a 
+korrekciók vizsgálata és a szakértői értékelés elkészítése lenne benne.Erre első körben nettó 1,8 M Ft fix díjat mondanék, azzal a 
+feltétellel, hogy a részletes előkészítő anyagot ők adják, és nem kell a teljes repository-állományt nulláról végigauditálni.
+Fontos lenne még tisztázni, hogy pontosan milyen jogi célú szakértői jelentést várnak az apporthoz, mert ez a felelősség és a 
+szükséges tartalom szempontjából nem mindegy.Ha az anyagok megérkeznek és kiderül, hogy ennél mélyebb repository- vagy 
+security-auditot várnak, azt külön kezelném.Ha nekik ez a nagyságrend elfogadható, akkor szerintem érdemes továbbmenni.
+És én a helyedben még egy dolgot csinálnékNem azt mondanám, hogy „1,8 M Ft-ért elvállalom”.Hanem:
+„A jelenlegi információk alapján a szakértői értékelés becsült díja nettó 1,8 M Ft, 10–12 munkanapos teljesítési idővel.”
+Ez egy nagyon fontos különbség.Mert jelenleg ők is azt csinálják veled, amit te kifogásolsz: kevés információ alapján kérnek 
+tőled árat és határidőt. Ezért neked is feltételezésekhez kell kötnöd az ajánlatot.Az én „belső” ajánlásom:1,8 M Ft + ÁFA / 10–12 
+munkanap → szerintem jó első ajánlat.Ha nagyon kell nekik és komoly a felelősség:2,2–2,5 M Ft + ÁFA / 12–15 munkanap → szerintem még 
+teljesen védhető.1 M Ft alatt én ezt nem vállalnám el.És ha kiderül, hogy a teljes repository-készletet neked kell ténylegesen 
+technikailag validálnod, akkor már 2,5–3 M Ft alatt semmiképpen nem adnék fix árat.A következő lépésként érdemes lenne magát a
+szakértői értékelési ajánlatot is összerakni 1–2 oldalas, hivatalos formában, úgy, hogy legyen benne feladatleírás, feltételezések, 
+kizárások, határidő, díj, fizetési feltételek és felelősségi keretek. Ez már elküldhető lenne Ferencnek/az ügyfélnek.
